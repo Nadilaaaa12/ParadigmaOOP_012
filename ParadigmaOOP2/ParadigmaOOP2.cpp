@@ -17,3 +17,9 @@ public:
 	int jumlah(int a, int b) {
 		return a + b;
 	}
+
+};
+
+class pelajar : public orang {
+public:
+	string sekolah;
